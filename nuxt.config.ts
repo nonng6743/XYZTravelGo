@@ -3,6 +3,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   
+  devServer: {
+    port: 3050
+  },
+  
   app: {
     head: {
       title: 'XYZTravelGo - เปรียบเทียบราคา Pass รถไฟญี่ปุ่น',
